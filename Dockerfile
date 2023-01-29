@@ -14,6 +14,6 @@ RUN pip install -r requirements.txt
 
 COPY ./app .
 
-EXPOSE 8051
+EXPOSE 8501
 
 CMD ["streamlit", "run", "gpt_proto.py"]
